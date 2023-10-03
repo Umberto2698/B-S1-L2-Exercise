@@ -7,8 +7,6 @@ public class Numero2 {
         int n = Integer.parseInt(input.nextLine());
         System.out.println(switchFunction(n));
         input.close();
-
-
     }
 
     public static String switchFunction(int n) {
