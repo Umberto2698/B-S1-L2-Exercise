@@ -17,19 +17,12 @@ public class Numero1 {
     }
 
     public static boolean annoBisestile(int n) {
-        boolean condition;
         if (n % 4 == 0) {
             if (n % 100 == 0 && n % 400 == 0) {
-                condition = true;
-            } else if (n % 100 != 0) {
-                condition = true;
-            } else {
-                condition = false;
-            }
+                return true;
+            } else return n % 100 != 0;
         } else {
-            condition = false;
-
+            return false;
         }
-        return condition;
     }
 }
