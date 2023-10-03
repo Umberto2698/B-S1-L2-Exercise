@@ -9,7 +9,6 @@ public class Numero1 {
         System.out.println("Inserisci un anno e ti dirò se è bisestile o meno:");
         int anno = Integer.parseInt(input.nextLine());
         System.out.println(annoBisestile(anno) ? anno + " è bisestile." : anno + " non è bisestile.");
-
         input.close();
     }
 
