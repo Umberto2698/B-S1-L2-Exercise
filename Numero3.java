@@ -12,7 +12,6 @@ public class Numero3 {
         String word = input.nextLine();
         char[] arr = word.toCharArray();
         String[] arrStr = new String[word.length()];
-        String newWord = StringUtils.repeat("*", 10);
         int i = 0;
         while (i < arrStr.length) {
             if (i == arrStr.length - 1) {
