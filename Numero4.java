@@ -6,6 +6,7 @@ public class Numero4 {
         System.out.println("Inserisci un numero intero e farò il conto alla rovescia per te!");
         int n = Integer.parseInt(input.nextLine());
         forFunction(n);
+        input.close();
     }
 
     public static void forFunction(int n) {
